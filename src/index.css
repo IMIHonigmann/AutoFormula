@@ -35,15 +35,19 @@ h1 {
 }
 
 .blockmath {
-  float: right;
-  margin-left: 100px;
-  padding: 15px;
+  padding: 10px;
   border-style: groove;
   border-radius: 20px;
+  margin-bottom: 20px;
+  max-width: 700px;
 }
 
 .result {
   color: greenyellow;
+}
+
+span.inputs {
+  padding-right: 700px;
 }
 
 .resultFailed {
@@ -52,7 +56,14 @@ h1 {
 
 input {
   height: 25px;
-  width: 60px;
+  width: 50px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+input[type="range"] {
+  height: 25px;
+  width: 600px;
   margin-bottom: 10px;
   margin-right: 10px;
 }
